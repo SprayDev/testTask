@@ -1,0 +1,7 @@
+.head{
+    font-size: 30px;
+}
+.noBoard{
+    border-right: none;
+    border-left: none;
+}

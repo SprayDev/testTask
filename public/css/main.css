@@ -1,0 +1,158 @@
+body{
+    background-color: white;
+}
+.bg-exdel{
+    padding: 0 10%;
+}
+.mw-50{
+    max-width: 50% !important;
+}
+.exdel-nav{
+    line-height: 70px;
+    text-align: center;
+}
+.call-track{
+    display: inherit;
+}
+.exdel-li-a{
+    color: black !important;
+}
+.btn-outline-exdel{
+    color: #2c1e5b;
+    border-color: #2c1e5b;
+}
+.btn-outline-exdel:hover{
+    background-color: #2c1e5b;
+    color: white;
+}
+.exdel-list:hover{
+    background-color: #2c1e5b;
+    color: white;
+}
+.exdel-list:hover .exdel-li-a{
+    color: white !important;
+}
+.phone{
+    color: black;
+    text-decoration: none;
+}
+.btn-pm{
+    background-color: #2c1e5b;
+}
+
+.phone:hover{
+    text-decoration: none;
+    color: white;
+}
+.thead-exdel{
+    background-color: #f8f9fa !important;
+}
+.table .thead-exdel th{
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+}
+.input-date{
+    width: 160px;
+}
+.style-chooser .vs__search::placeholder,
+.style-chooser .vs__dropdown-toggle,
+.style-chooser .vs__dropdown-menu {
+    background: white;
+    color: #394066;
+    border: 1px solid;
+    border-color: #2c1e5b;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+.style-chooser .vs__clear,
+.style-chooser .vs__open-indicator {
+    fill: #394066;
+}
+.calculator{
+    padding: 2.1rem 4.2rem;
+    box-shadow: 0.6rem 0.6rem 3rem;
+    background-color: white;
+    margin: 6.4rem auto;
+    width: 80%;
+}
+.input-ves{
+    height: 32px;
+    border: 1px solid;
+    border-color: #2c1e5b;
+    width: 6em !important;
+}
+.exdel-input{
+    border-color: #2c1e5b;
+}
+.btn-calc{
+    position: absolute;
+    bottom: 12px;
+    color: black;
+}
+.exdel-fieldset{
+    border: 1px solid;
+}
+.exdel-legend{
+    width: 0;
+    max-width: 0;
+    font-size: 13px;
+    margin-left: 7px;
+}
+.gab{
+    margin-top: -7px;
+}
+.docNumber{
+    cursor: pointer;
+}
+.pointer{
+    cursor: pointer;
+}
+.profile-desc-span{
+    font-size: 1.2rem;
+}
+.webDoc{
+    background-color: #3490dc;
+}
+
+
+.demo-heat{
+    position: relative;
+    background: rgba(0,0,0,0.9);
+    height: 400px;
+    width: 400px;
+}
+
+.heatmap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .bg-exdel{
+        padding: 3%;
+    }
+    .doc-table{
+        width: 600px;
+        overflow: scroll;
+    }
+    .table-container{
+        width: inherit;
+        overflow: scroll;
+    }
+    .calculator{
+        padding: 2.1rem 1rem;
+        margin: 6.4rem auto;
+        width: 90%;
+    }
+    .btn-calc{
+        bottom: -7px;
+    }
+    .mobile-col{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .mobile-row{
+        display: block !important;
+    }
+}
