@@ -47,7 +47,7 @@ class authController extends Controller
                 else
                     $remember = false;
                 if (Auth::attempt($credentials,$remember)) {
-                    return redirect()->route('home');
+                    return redirect()->route('profile');
                 } else {
                     return redirect()->back()->with('alert', "Неверные данные");
                 }

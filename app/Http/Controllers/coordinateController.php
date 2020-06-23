@@ -39,6 +39,7 @@ class coordinateController extends Controller
 
     public function getData(Request $request){
         $coordinates = coordinate::all();
+        
         $rc = [];
         foreach ($coordinates as $k=>$item){
             $coordinates[$k]->dateTime = date('H',strtotime($item->dateTime));

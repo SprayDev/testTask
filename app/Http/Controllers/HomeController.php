@@ -225,13 +225,7 @@ class HomeController extends Controller
         $firebird = new firebirdDB();
         $exdelDB = $firebird->exdel();
 
-        $sql = "select * from KRS_WEBDOCUMENT_PUT('$heap')";
-        $Request = ibase_query($sql);
-        $rc = ibase_fetch_object($Request);
-        //$docId = $rc->DVNEWIDWEB;
-        $docId = 1;
-        ibase_close($exdelDB);
-        return $docId;
+       return 1;
     }
 
     public function printDoc($id){
