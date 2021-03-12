@@ -30,7 +30,7 @@
         "file-saver": "^2.0.2",
         "fs": "0.0.1-security",
         "heatmap.js": "^2.0.5",
-        "jspdf": "^1.5.3",
+        "jspdf": "^2.3.1",
         "vue-barcode": "^1.2.0",
         "vue-chartjs": "^3.5.0",
         "vue-heatmapjs": "^1.5.0-0",
